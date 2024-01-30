@@ -1,0 +1,151 @@
+html{
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    color: maroon;
+    flex-direction: row;
+}
+span{
+   color:black;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+nav{
+   flex:1;
+   text-align: right;
+}
+nav ul{
+    list-style-type: none;
+    display: inline-block;
+
+}
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+
+}
+a{
+  text-decoration: none;
+  color:black ;
+  font-size: 22px;
+}
+
+ a:hover{
+    background-color: rgba(0, 255, 255, 0.295)
+ }
+ 
+.container{
+    width: 100%;
+    height: 67px;
+    padding-right: 25px;
+    background-color: rgba(128, 128, 128, 0.041);
+    position: fixed;
+}
+
+.box{
+width: 100%;
+height: 110vh;
+box-sizing: border-box;
+background-size: cover;
+background-image: url(https://t3.ftcdn.net/jpg/05/97/94/02/240_F_597940292_dmaVD664ccNHMDJqi0Wv0SCSexklLyhO.jpg);
+display: flex;
+align-items: center;
+}
+.col-1{
+padding: 25px;
+}
+/* .row{
+display: flex;
+align-content: end;
+padding-left: 25px;
+padding-top: 310px;
+} */
+.btn{
+display: inline-block;
+background-color: rgba(0, 0, 255, 0.397);
+color: white;
+padding: 8px 30px;
+margin: 30px 0;
+border-radius: 30px;
+transition: background 0.3s;
+}
+    /* NOW THE PRODUCTS CONTAINER WILL BE STARTED */
+
+.products{
+background-color: rgba(0, 0, 255, 0.411);
+width: 100%;
+height: 30px;
+text-align: center;
+font-family:'Times New Roman', Times, serif;
+}
+.productscontainer{
+height: 500px;
+width: 100%;
+background-color: skyblue;
+}
+.box2{
+  height:400px;
+  width: 100%;
+  background-color:blue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.t-shirt1{
+height: 306px;
+width: 261px;
+background-color: white;
+margin: 20px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.tshirt1img{
+height:200px ;
+width: 200px;
+}
+
+.t-shirt2{
+height: 306px;
+width: 261px;
+background-color:white;
+margin: 20px;
+float: left;
+
+}
+.t-shirt3{
+height: 306px;
+width: 261px;
+background-color:white;
+margin: 20px;
+float: left;
+
+}
+.t-shirt4{
+height: 306px;
+width: 261px;
+background-color:white;
+margin: 20px;
+float: left;
+}
+.t-shirt1.img-collection{
+width: 100%;
+height: 60%;
+}
+.img-collection img{
+width: 100%;
+height: 100%;
+}
+.detail-item{
+width: 100%;
+height: 40%;
+}
+
